@@ -1,0 +1,21 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:JMFinalProject"
+             x:Class="JMFinalProject.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary">#2A2A2A</Color>
+            <Color x:Key="FrameColor_1">#1C1C1C</Color>
+            <Color x:Key="FrameColor_2">#717171</Color>
+            <Color x:Key="TextSoft">Gray</Color>
+            <Color x:Key="TextColorBlack">#181818</Color>
+            <Color x:Key="TextColorWhite">#FFFFFF</Color>
+            <Color x:Key="ButtonColor">MediumPurple</Color>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
