@@ -11,11 +11,6 @@
             Title="Diary"
             ContentTemplate="{DataTemplate local:AllNotesPage}"
             Icon="icon_notes" />
-
-        <ShellContent
-            Title="About"
-            ContentTemplate="{DataTemplate local:AboutPage}"
-            Icon="icon_about" />
     </TabBar>
 
 </Shell>
