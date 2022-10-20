@@ -51,6 +51,8 @@
 	<ItemGroup>
 	  <None Remove="Resources\Images\welcome.gif" />
 	  <None Remove="Resources\Images\WELCOME.json" />
+	  <None Remove="Resources\Raw\r.json" />
+	  <None Remove="Resources\Raw\wc.json" />
 	</ItemGroup>
 
 	<ItemGroup>
